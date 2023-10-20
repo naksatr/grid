@@ -1,0 +1,56 @@
+.container
+{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: 50px 500px 100px;
+    grid-template-areas: 
+    'header header header'
+    'sidebar content content'
+    'footer footer footer'
+    
+    ;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    gap: 10px;
+    text-align: justify;
+
+}
+.header
+{
+    grid-area:header ;
+   
+   
+
+}
+.sidebar
+{
+    grid-area: sidebar;
+    position: relative;
+   
+  
+}
+.content
+{
+    grid-area: content;
+    position: relative;
+  
+ 
+}
+.footer
+{
+    grid-area:footer ;
+    
+   
+}
+ul
+{
+    list-style-type: none;
+  
+}
+a
+{
+    text-decoration: none;
+    color: black;
+   
+}
